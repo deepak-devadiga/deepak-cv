@@ -1,7 +1,7 @@
 function downloadPage() {
     const element = document.getElementById('cv-main'); // whole page
     const options = {
-        margin: [20, 0, 20, 0],
+        margin: [5, 0, 5, 0],
         filename: 'deepak-kb_cv.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
