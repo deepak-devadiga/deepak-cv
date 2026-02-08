@@ -96,7 +96,6 @@ p {
   margin-bottom: 15px;
   width: 100%;
   height: auto;
-  border-radius: 50%;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
@@ -407,4 +406,12 @@ p {
 
 a {
   text-decoration: none !important;
+}
+
+.skills{
+  line-height: 2.5;
+}
+
+.skills span {
+  cursor:help;
 }
