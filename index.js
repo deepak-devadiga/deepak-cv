@@ -7,7 +7,6 @@ function downloadPage() {
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
     };
-    console.log('Downloading page as PDF...', options); \
 
     const hidden = document.querySelectorAll('.no-pdf');
 
