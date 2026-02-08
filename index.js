@@ -13,11 +13,10 @@ function downloadPage() {
     hidden.forEach(el => el.style.display = 'none');
 
     html2pdf()
+    .set(options)
         .from(document.body)
         .save()
         .then(() => {
             hidden.forEach(el => el.style.display = '');
         });
-
-    html2pdf().set(options).from(element).save();
 }
