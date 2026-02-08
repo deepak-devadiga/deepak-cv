@@ -463,3 +463,12 @@ a {
     max-width: none;
   }
 }
+
+@media (max-width: 768px) {
+  .fab-container {
+    display: none;
+  }
+  .sidebar-wrapper .profile {
+    width: 50%;
+  }
+}
