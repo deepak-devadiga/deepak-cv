@@ -96,6 +96,7 @@ p {
   margin-bottom: 15px;
   width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
