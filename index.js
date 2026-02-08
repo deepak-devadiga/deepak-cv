@@ -7,7 +7,18 @@ function downloadPage() {
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
     };
-    console.log('Downloading page as PDF...', options);
+    console.log('Downloading page as PDF...', options); \
 
-      html2pdf().set(options).from(element).save();
+    const hidden = document.querySelectorAll('.no-pdf');
+
+    hidden.forEach(el => el.style.display = 'none');
+
+    html2pdf()
+        .from(document.body)
+        .save()
+        .then(() => {
+            hidden.forEach(el => el.style.display = '');
+        });
+
+    html2pdf().set(options).from(element).save();
 }
