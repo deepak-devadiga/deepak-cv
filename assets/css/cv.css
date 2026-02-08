@@ -6,6 +6,11 @@
  * Twitter: @3rdwave_themes
  * Website: http://themes.3rdwavemedia.com/
 */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+ 
 body {
   font-family: "Roboto", sans-serif;
   color: #545e6c;
@@ -471,4 +476,13 @@ a {
   .sidebar-wrapper .profile {
     width: 50%;
   }
+}
+
+.download-btn {
+  display: none;
+}
+
+/* Avoid forcing a page at the very start */
+* {
+  page-break-before: auto;
 }

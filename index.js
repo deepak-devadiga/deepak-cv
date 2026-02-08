@@ -1,3 +1,7 @@
+window.onload = () => {
+  document.getElementById('download-btn').style.display = 'block';
+};
+
 function downloadPage() {
     const element = document.getElementById('cv-main'); // whole page
     const options = {
