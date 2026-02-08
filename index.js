@@ -1,5 +1,5 @@
 function downloadPage() {
-    const element = document.body; // whole page
+    const element = document.getElementById('cv-main'); // whole page
     const options = {
         margin: 0.5,
         filename: 'deepak-kb_cv.pdf',
