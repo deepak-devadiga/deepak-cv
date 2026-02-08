@@ -455,4 +455,9 @@ a {
   break-inside: avoid;
 }
 
-
+@media print {
+  .main-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
