@@ -1,11 +1,11 @@
 function downloadPage() {
     const element = document.getElementById('cv-main'); // whole page
     const options = {
-        margin: 0.5,
+        margin: 0,
         filename: 'deepak-kb_cv.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
-        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
 
     const hidden = document.querySelectorAll('.no-pdf');
