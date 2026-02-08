@@ -439,3 +439,9 @@ a {
   font-size: 24px;
   cursor: pointer;
 }
+
+.page-break {
+  page-break-before: always;
+  break-before: page;
+}
+
