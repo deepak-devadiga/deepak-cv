@@ -15,10 +15,12 @@
     rel="stylesheet" type="text/css" />
   <!-- FontAwesome JS-->
   <script defer src="assets/fontawesome/js/all.min.js"></script>
+  <!-- HTML 2 PDF -->
+  <script defer src="assets/plugins/html2pdf.min.js"></script>
   <!-- Global CSS -->
   <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
   <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css" />
+  <link id="theme-style" rel="stylesheet" href="assets/css/cv.css" />
 </head>
 
 <body>
@@ -119,12 +121,6 @@
           <h6>Technical Skills:</h6>
           <div>
             <p class="skills">
-              <!-- <li>Frontend: <span class="chip">Angular</span> <span class="chip">React.js</span> <span class="chip">Ionic</span></li>
-              <li>Mobile: <span class="chip">Flutter</span></li>
-              <li>Backend: <span class="chip">Node.js</span></span></li>
-              <li>Database: <span class="chip">MongoDB</span></li>
-              <li>Cloud: <span class="chip">AWS</span> <span class="chip">Azure</span></li>
-              <li>Containerization: <span class="chip">Kubernetes</span></li> -->
               <span class="chip" title="Frontend">Angular</span> 
               <span class="chip" title="Frontend">React.js</span> 
               <span class="chip" title="Frontend">Ionic</span>
@@ -452,11 +448,17 @@
         </div>
       </section>
     </div>
-    <!--//main-body-->
   </div>
 
+  <div class="fab-container">
+  <button class="fab-button" onclick="downloadPage()">
+    <i class="fa fa-download" aria-hidden="true"></i>
+  </button>
+</div>
+
+
   <footer class="footer"></footer>
-  <!--//footer-->
+  <script src="index.js"></script>
 </body>
 
 </html>

@@ -416,3 +416,26 @@ a {
 .skills span {
   cursor:help;
 }
+
+.fab-container {
+  /* Positions the container relative to the viewport */
+  position: fixed; 
+  /* Sets the distance from the bottom and right edges */
+  bottom: 20px; 
+  right: 20px; 
+  /* Ensures the FAB is above other page content */
+  z-index: 1000; 
+}
+
+.fab-button {
+  /* Basic styling for the button (adjust as needed) */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #007bff; /* Example color */
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  cursor: pointer;
+}
