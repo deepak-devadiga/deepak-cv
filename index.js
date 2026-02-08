@@ -4,7 +4,7 @@ function downloadPage() {
         margin: [10, 0, 10, 0],
         filename: 'deepak-kb_cv.pdf',
         image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 2 },
+        html2canvas: { scale: 2, useCORS: true },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
 
